@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+
+
+    "target": "ES2020",
+
+    "module": "commonjs",
+    "rootDir": "../server",
+
+
+    "outDir": "./build",
+
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "strict": true,
+    
+
+    "skipLibCheck": true
+  },
+  "include": [
+    "utils/swagger_output.json",
+    "utils/**/*"
+, "swagger.ts"    ],
+  "exclude": [
+    "node_modules"
+  ],
+
+}
